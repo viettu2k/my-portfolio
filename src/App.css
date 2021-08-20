@@ -1,8 +1,160 @@
+.portfolio-main {
+    padding: 20px;
+}
+
 .name-header {
     text-align: center;
     margin: 30px;
+    font-family: "Operator Mono Lig";
 }
 
 .header-main {
     margin: 30px;
+}
+
+.intro-card {
+    width: 100%;
+    height: 40vh;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 2px 2px grey;
+    border-radius: 5px;
+}
+
+.card-wrapper {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.three-dots {
+    display: flex;
+}
+
+.dot-1 {
+    background-color: tomato;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 1px grey;
+}
+
+.dot-2 {
+    background-color: #ffc107;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 1px grey;
+}
+
+.dot-3 {
+    background-color: #4caf50;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 1px grey;
+}
+
+.email-wrapper {
+    margin: 15px;
+    font-family: "Operator Mono Lig";
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-wrapper {
+    position: relative;
+    top: 35px;
+    left: 100px;
+    margin: 20px;
+}
+
+.user-image {
+    width: 150px;
+}
+
+.whoamI-wrapper {
+    background-color: #f0ead6;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    right: 40px;
+}
+
+.blue-card {
+    height: 150px;
+    width: 350px;
+    border: 1px solid #2196f3;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background-color: rgb(251, 249, 243, 0.8);
+}
+
+.small-dot-1 {
+    border: 0.5px solid #2196f3;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 9;
+}
+
+.small-dot-2 {
+    border: 0.5px solid #2196f3;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    float: right;
+    top: 10px;
+    left: 20px;
+    z-index: 9;
+}
+
+.small-dot-3 {
+    border: 0.5px solid #2196f3;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    top: 160px;
+    left: 10px;
+    z-index: 9;
+}
+
+.small-dot-4 {
+    border: 0.5px solid #2196f3;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    float: right;
+    top: 150px;
+    left: 20px;
+    z-index: 9;
+}
+
+.blue-cart-content {
+    padding: 20px;
+    font-family: "Operator Mono Lig";
 }
