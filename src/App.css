@@ -224,3 +224,13 @@
     top: 50px;
     float: right;
 }
+
+.project-container {
+    margin-top: 20px;
+    font-family: "Operator Mono Lig";
+}
+
+.project-card {
+    width: 350px !important;
+    height: 350px !important;
+}
