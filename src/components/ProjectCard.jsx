@@ -8,6 +8,8 @@ import {
   Image,
   Icon,
 } from "semantic-ui-react";
+import SN from "../assets/SN.png";
+import SM from "../assets/SM.png";
 
 export default function ProjectCard() {
   return (
@@ -415,39 +417,91 @@ export default function ProjectCard() {
         <Grid stackable columns={2}>
           <Grid.Column>
             <Card centered className="project-card">
+              <Image src={SM} wrapped ui={false} />
               <Card.Content>
-                <Card.Header>Matthew</Card.Header>
+                <Card.Header>Smart Brain</Card.Header>
                 <Card.Meta>
-                  <span className="date">Joined in 2015</span>
+                  <span className="date">FullStack Project</span>
                 </Card.Meta>
                 <Card.Description>
                   Matthew is a musician living in Nashville.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
-                <a>
-                  <Icon name="user" />
-                  22 Friends
-                </a>
+                <div className="ui three buttons">
+                  <Button basic color="green">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/viettu2k/smart-brain"
+                    >
+                      Github FrontEnd
+                    </a>
+                  </Button>
+                  <Button basic color="green">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/viettu2k/smart-brain-api"
+                    >
+                      Github BackEnd
+                    </a>
+                  </Button>
+                  <Button basic color="blue">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://smart-brain-viettu2k.vercel.app/"
+                    >
+                      Demo
+                    </a>
+                  </Button>
+                </div>
               </Card.Content>
             </Card>
           </Grid.Column>
           <Grid.Column>
             <Card centered className="project-card">
+              <Image src={SN} wrapped ui={false} />
               <Card.Content>
-                <Card.Header>Matthew</Card.Header>
+                <Card.Header>Simple Social Network</Card.Header>
                 <Card.Meta>
-                  <span className="date">Joined in 2015</span>
+                  <span className="date">FullStack Project</span>
                 </Card.Meta>
                 <Card.Description>
                   Matthew is a musician living in Nashville.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
-                <a>
-                  <Icon name="user" />
-                  22 Friends
-                </a>
+                <div className="ui three buttons">
+                  <Button basic color="green">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/viettu2k/social-network"
+                    >
+                      Github FrontEnd
+                    </a>
+                  </Button>
+                  <Button basic color="green">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/viettu2k/social-network-api"
+                    >
+                      Github BackEnd
+                    </a>
+                  </Button>
+                  <Button basic color="blue">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://social-network-one-mu.vercel.app/"
+                    >
+                      Demo
+                    </a>
+                  </Button>
+                </div>
               </Card.Content>
             </Card>
           </Grid.Column>
