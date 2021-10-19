@@ -1,0 +1,91 @@
+<ul className="skill-list">
+              Vanilla Project:
+              <li>
+                Infinity Scroll
+                <ol>
+                  <li>
+                    <a href="https://github.com/viettu2k/infinity-scroll">
+                      Github
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/viettu2k/infinity-scroll">
+                      Demo
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/infinity-scroll">
+                  Infinity Scroll
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/joke-teller">
+                  Joke Teller
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/pig-game">Pig Game</a>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/quote-generator">
+                  Quote Generator
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/music-player">
+                  Music Player
+                </a>
+              </li>
+            </ul>
+            <ul className="skill-list">
+              React Project:
+              <li>
+                <a href="https://github.com/viettu2k/crown-clothing">
+                  Crown Clothing
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/comfy-sloth">
+                  Comfy Sloth
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/hacker-news">
+                  Hacker News
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/movie-db">Movie Search</a>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/react-calculator">
+                  React Calculator
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/viettu2k/cocktails">Cocktails</a>
+              </li>
+            </ul>
+            <ul className="skill-list">
+              Full-stack Project:
+              <li>
+                Simple Social Network:
+                <a href="https://github.com/viettu2k/social-network">
+                  FrontEnd
+                </a>
+                <a href="https://github.com/viettu2k/social-network-api">
+                  BackEnd
+                </a>
+              </li>
+              <li>
+                Smart Brain:
+                <a href="https://github.com/viettu2k/smart-brain">FrontEnd</a>
+                <a href="https://github.com/viettu2k/smart-brain-api">
+                  BackEnd
+                </a>
+              </li>
+            </ul>
+          </div>
+        </p>

@@ -1,4 +1,5 @@
 import React from "react";
+import avatar from "./../assets/avatar.jpg";
 
 export default function IntroCard() {
     return (
@@ -15,11 +16,7 @@ export default function IntroCard() {
 
             <div className="main-section">
                 <div className="image-wrapper">
-                    <img
-                        className="user-image"
-                        src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
-                        alt="avatar"
-                    />
+                    <img className="user-image" src={avatar} alt="avatar" />
                 </div>
 
                 <div className="whoamI-wrapper">

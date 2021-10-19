@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@800&display=swap");
 .portfolio-main {
     padding: 20px;
 }
@@ -157,4 +158,69 @@
 .blue-cart-content {
     padding: 20px;
     font-family: "Operator Mono Lig";
+}
+
+.skills-card-main {
+    background-color: whitesmoke;
+    border: 0.5px solid grey;
+    margin-top: 40px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.more-about-me {
+    font-size: 24px;
+    font-family: "Recursive", sans-serif;
+}
+
+.introduction {
+    font-size: 16px;
+    font-family: "Operator Mono Lig";
+    color: #2b2929;
+}
+
+.expertise {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "Recursive", sans-serif;
+}
+
+.expertise-content {
+    font-size: 16px;
+    font-family: "Operator Mono Lig";
+    color: #2b2929;
+}
+
+.skills-container {
+    background-color: #f0ead6;
+    height: auto;
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding-right: 25px;
+}
+
+.skill-list {
+    list-style: none;
+}
+
+.skill-list li {
+    font-family: "Operator Mono Lig";
+}
+
+.links-section {
+    width: 50%;
+    position: relative;
+    top: 50px;
+    float: right;
 }
