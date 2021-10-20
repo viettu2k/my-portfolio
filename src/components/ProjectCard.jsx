@@ -6,14 +6,26 @@ import {
   Segment,
   Container,
   Image,
-  Icon,
 } from "semantic-ui-react";
 import SN from "../assets/SN.png";
 import SM from "../assets/SM.png";
 
 export default function ProjectCard() {
+  const scrollToTop = () => {
+    window.scroll(0, 0);
+  };
+
   return (
     <div className="project-container">
+      <div className="floating-button">
+        <Button
+          size="big"
+          color="green"
+          circular
+          icon="arrow up"
+          onClick={scrollToTop}
+        />
+      </div>
       <Container textAlign="center">
         <h2>MY EXPERIENCE</h2>
         <Grid stackable columns={3}>
@@ -424,7 +436,8 @@ export default function ProjectCard() {
                   <span className="date">FullStack Project</span>
                 </Card.Meta>
                 <Card.Description>
-                  Matthew is a musician living in Nashville.
+                  FrontEnd: React <br />
+                  BackEnd: Express + PostgreSql
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -469,7 +482,8 @@ export default function ProjectCard() {
                   <span className="date">FullStack Project</span>
                 </Card.Meta>
                 <Card.Description>
-                  Matthew is a musician living in Nashville.
+                  FrontEnd: React <br />
+                  BackEnd: Express + MongoDB
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>

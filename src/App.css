@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Recursive:wght@800&display=swap");
+* {
+    scroll-behavior: smooth;
+}
+
 .portfolio-main {
     padding: 20px;
 }
@@ -233,4 +237,10 @@
 .project-card {
     width: 350px !important;
     height: 350px !important;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
