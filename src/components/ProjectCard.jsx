@@ -6,6 +6,7 @@ import {
   Segment,
   Container,
   Image,
+  Icon,
 } from "semantic-ui-react";
 import SN from "../assets/SN.png";
 import SM from "../assets/SM.png";
@@ -48,20 +49,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/infinity-scroll"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://viettu2k.github.io/infinity-scroll/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -81,20 +84,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/joke-teller"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://viettu2k.github.io/joke-teller/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -114,20 +119,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/quote-generator"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://viettu2k.github.io/quote-generator/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -147,20 +154,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/music-player"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://musing-poincare-f6c685.netlify.app/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -186,20 +195,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/crown-clothing"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="http://crown-live-viettu.herokuapp.com/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -219,20 +230,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/github-search-users"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://viettu2k-github-search-users.netlify.app/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -252,20 +265,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/comfy-sloth"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://viettu2k-comfy-sloth-store.netlify.app/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -285,20 +300,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/quiz"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://keen-shaw-e1cd5d.netlify.app/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -315,7 +332,7 @@ export default function ProjectCard({ theme }) {
                     <Image
                       floated="right"
                       size="mini"
-                      src="https://www.pngkit.com/png/detail/470-4704009_nodejs-rust-logo-node-js.png"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7u-Ov-Vmlk9gIzrfCdqUIJgmgjFka0TFCKH6rEnmXrwS7OL5aJsVw8v4j1KxNAAFA6h4&usqp=CAU"
                     />
                     <Card.Header>Node Farm</Card.Header>
                     <Card.Meta>Node Project</Card.Meta>
@@ -324,11 +341,12 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/node-farm"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                     </div>
@@ -339,7 +357,7 @@ export default function ProjectCard({ theme }) {
                     <Image
                       floated="right"
                       size="mini"
-                      src="https://www.pngkit.com/png/detail/470-4704009_nodejs-rust-logo-node-js.png"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7u-Ov-Vmlk9gIzrfCdqUIJgmgjFka0TFCKH6rEnmXrwS7OL5aJsVw8v4j1KxNAAFA6h4&usqp=CAU"
                     />
                     <Card.Header>Social Network API</Card.Header>
                     <Card.Meta>Node Project</Card.Meta>
@@ -348,20 +366,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/social-network-api"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://evening-earth-21357.herokuapp.com/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -372,7 +392,7 @@ export default function ProjectCard({ theme }) {
                     <Image
                       floated="right"
                       size="mini"
-                      src="https://www.pngkit.com/png/detail/470-4704009_nodejs-rust-logo-node-js.png"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7u-Ov-Vmlk9gIzrfCdqUIJgmgjFka0TFCKH6rEnmXrwS7OL5aJsVw8v4j1KxNAAFA6h4&usqp=CAU"
                     />
                     <Card.Header>Natours API</Card.Header>
                     <Card.Meta>Node Project</Card.Meta>
@@ -381,11 +401,12 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/natours-api"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                     </div>
@@ -396,7 +417,7 @@ export default function ProjectCard({ theme }) {
                     <Image
                       floated="right"
                       size="mini"
-                      src="https://www.pngkit.com/png/detail/470-4704009_nodejs-rust-logo-node-js.png"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7u-Ov-Vmlk9gIzrfCdqUIJgmgjFka0TFCKH6rEnmXrwS7OL5aJsVw8v4j1KxNAAFA6h4&usqp=CAU"
                     />
                     <Card.Header>Smart Brain API</Card.Header>
                     <Card.Meta>Node Project</Card.Meta>
@@ -405,20 +426,22 @@ export default function ProjectCard({ theme }) {
                     <div className="ui two buttons">
                       <Button basic color="green">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://github.com/viettu2k/smart-brain-api"
                         >
-                          Github
+                          <Icon name="github" /> Github
                         </a>
                       </Button>
                       <Button basic color="blue">
                         <a
+                          style={{ fontWeight: "bold" }}
                           target="_blank"
                           rel="noopener noreferrer"
                           href="https://guarded-escarpment-87367.herokuapp.com/"
                         >
-                          Demo
+                          <Icon name="window maximize outline" /> Demo
                         </a>
                       </Button>
                     </div>
@@ -446,29 +469,32 @@ export default function ProjectCard({ theme }) {
                 <div className="ui three buttons">
                   <Button basic color="green">
                     <a
+                      style={{ fontWeight: "bold" }}
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/viettu2k/smart-brain"
                     >
-                      Github FrontEnd
+                      <Icon name="github" /> Github FrontEnd
                     </a>
                   </Button>
                   <Button basic color="green">
                     <a
+                      style={{ fontWeight: "bold" }}
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/viettu2k/smart-brain-api"
                     >
-                      Github BackEnd
+                      <Icon name="github" /> Github BackEnd
                     </a>
                   </Button>
                   <Button basic color="blue">
                     <a
+                      style={{ fontWeight: "bold" }}
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://smart-brain-viettu2k.vercel.app/"
                     >
-                      Demo
+                      <Icon name="window maximize outline" /> Demo
                     </a>
                   </Button>
                 </div>
@@ -492,29 +518,32 @@ export default function ProjectCard({ theme }) {
                 <div className="ui three buttons">
                   <Button basic color="green">
                     <a
+                      style={{ fontWeight: "bold" }}
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/viettu2k/social-network"
                     >
-                      Github FrontEnd
+                      <Icon name="github" /> Github FrontEnd
                     </a>
                   </Button>
                   <Button basic color="green">
                     <a
+                      style={{ fontWeight: "bold" }}
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/viettu2k/social-network-api"
                     >
-                      Github BackEnd
+                      <Icon name="github" /> Github BackEnd
                     </a>
                   </Button>
                   <Button basic color="blue">
                     <a
+                      style={{ fontWeight: "bold" }}
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://social-network-one-mu.vercel.app/"
                     >
-                      Demo
+                      <Icon name="window maximize outline" /> Demo
                     </a>
                   </Button>
                 </div>

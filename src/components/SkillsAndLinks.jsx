@@ -17,9 +17,9 @@ export default function SkillsAndLinks({ theme }) {
             theme === "light" ? "expertise-content" : "expertise-content-dark"
           }
         >
-          I am a student at Duy Tân university, majoring in software
-          engineering. And I am looking for a position that matches my skills,
-          to learn and improve my experience.
+          I am a student at <b>Duy Tân university</b>, majoring in{" "}
+          <b>software engineering.</b> And I am looking for a position that
+          matches my skills, to learn and improve my experience.
         </p>
         <p
           className={
@@ -74,6 +74,9 @@ export default function SkillsAndLinks({ theme }) {
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/t%C3%BA-%C4%91o%C3%A0n-vi%E1%BB%87t-92070120b/"
+            className={
+              theme === "light" ? "download-button" : "download-button-dark"
+            }
           >
             Download Resume
           </a>
@@ -88,12 +91,17 @@ export default function SkillsAndLinks({ theme }) {
           className={
             theme === "light" ? "expertise-content" : "expertise-content-dark"
           }
+          style={{ marginRight: "10px" }}
         >
-          I have learned{" "}
-          <b>data structures and algorithms, databases ,software testing</b> and
-          my favorite programming language are <b>JavaScript</b>. So I
-          approached the most popular frameworks and libraries of the{" "}
-          <b>JavaScript</b> language.
+          I studied{" "}
+          <b>
+            data structures and algorithms, project management, software
+            testing,
+          </b>{" "}
+          and some basic programming languages in my university program like{" "}
+          <b>c++, c#, java</b>. In addition, I also learned more and felt very
+          interested in the <b>JavaScript</b> language, so I learned the
+          libraries and frameworks of the <b>JavaScript</b> language.
         </p>
 
         <div
