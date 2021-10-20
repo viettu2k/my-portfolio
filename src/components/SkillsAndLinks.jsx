@@ -1,46 +1,94 @@
 import React from "react";
 import { Divider, Button, Icon } from "semantic-ui-react";
 
-export default function SkillsAndLinks() {
+export default function SkillsAndLinks({ theme }) {
   return (
-    <div className="skills-card-main">
+    <div
+      className={
+        theme === "light" ? "skills-card-main" : "skills-card-main-dark"
+      }
+    >
       <div className="skills-section">
-        <p class="more-about-me">MORE ABOUT ME</p>
-        <p className="introduction">
+        <p className={theme === "light" ? "expertise" : "expertise-dark"}>
+          MORE ABOUT ME
+        </p>
+        <p
+          className={
+            theme === "light" ? "expertise-content" : "expertise-content-dark"
+          }
+        >
           I am a student at Duy Tân university, majoring in software
           engineering. And I am looking for a position that matches my skills,
           to learn and improve my experience.
         </p>
-        <p className="introduction">
+        <p
+          className={
+            theme === "light" ? "expertise-content" : "expertise-content-dark"
+          }
+        >
           Building projects to learn how the code works is my hobbies, as well
           socializing with friends and family and computing.
         </p>
         <Divider />
-        <p className="expertise">CONTACT ME</p>
-        <p className="expertise-content">
+        <p className={theme === "light" ? "expertise" : "expertise-dark"}>
+          CONTACT ME
+        </p>
+        <p
+          className={
+            theme === "light" ? "expertise-content" : "expertise-content-dark"
+          }
+        >
           <Icon name="mail" /> doanviettu2k@gmail.com
           <br />
           <Icon name="phone" /> 0373686373
           <br />
           <Icon name="facebook" />{" "}
-          <a href="https://www.facebook.com/doazvjettu/">Facebook</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/doazvjettu/"
+          >
+            Facebook
+          </a>
           <br />
           <Icon name="github" />{" "}
-          <a href="https://github.com/viettu2k">Github</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/viettu2k"
+          >
+            Github
+          </a>
           <br />
           <Icon name="linkedin" />{" "}
-          <a href="https://www.linkedin.com/in/t%C3%BA-%C4%91o%C3%A0n-vi%E1%BB%87t-92070120b/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/t%C3%BA-%C4%91o%C3%A0n-vi%E1%BB%87t-92070120b/"
+          >
             LinkedIn
           </a>
         </p>
         <Button inverted color="red">
-          Download Resume
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/t%C3%BA-%C4%91o%C3%A0n-vi%E1%BB%87t-92070120b/"
+          >
+            Download Resume
+          </a>
         </Button>
       </div>
 
       <div className="links-section">
-        <p className="expertise">MY KNOWLEDGE</p>
-        <p className="expertise-content">
+        <p className={theme === "light" ? "expertise" : "expertise-dark"}>
+          MY KNOWLEDGE
+        </p>
+        <p
+          className={
+            theme === "light" ? "expertise-content" : "expertise-content-dark"
+          }
+        >
           I have learned{" "}
           <b>data structures and algorithms, databases ,software testing</b> and
           my favorite programming language are <b>JavaScript</b>. So I
@@ -48,7 +96,11 @@ export default function SkillsAndLinks() {
           <b>JavaScript</b> language.
         </p>
 
-        <div className="skills-container">
+        <div
+          className={
+            theme === "light" ? "skills-container" : "skills-container-dark"
+          }
+        >
           <ul className="skill-list">
             <li>HTML/CSS (basic)</li>
             <li>JavaScript (advanced)</li>

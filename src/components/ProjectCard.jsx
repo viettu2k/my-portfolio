@@ -10,7 +10,7 @@ import {
 import SN from "../assets/SN.png";
 import SM from "../assets/SM.png";
 
-export default function ProjectCard() {
+export default function ProjectCard({ theme }) {
   const scrollToTop = () => {
     window.scroll(0, 0);
   };
@@ -27,7 +27,9 @@ export default function ProjectCard() {
         />
       </div>
       <Container textAlign="center">
-        <h2>MY EXPERIENCE</h2>
+        <h2 className={theme === "light" ? "expertise" : "expertise-dark"}>
+          MY EXPERIENCE
+        </h2>
         <Grid stackable columns={3}>
           <Grid.Column>
             <Segment>
@@ -339,7 +341,7 @@ export default function ProjectCard() {
                       size="mini"
                       src="https://www.pngkit.com/png/detail/470-4704009_nodejs-rust-logo-node-js.png"
                     />
-                    <Card.Header>Simple Social Network API</Card.Header>
+                    <Card.Header>Social Network API</Card.Header>
                     <Card.Meta>Node Project</Card.Meta>
                   </Card.Content>
                   <Card.Content extra>
