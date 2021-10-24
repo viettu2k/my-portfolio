@@ -125,6 +125,8 @@
 
 .user-image {
     width: 150px;
+    border: 1px solid;
+    border-radius: 50%;
 }
 
 .whoamI-wrapper {

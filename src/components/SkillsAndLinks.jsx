@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, Button, Icon } from "semantic-ui-react";
+import { Divider, Icon } from "semantic-ui-react";
 
 export default function SkillsAndLinks({ theme }) {
   return (
@@ -69,18 +69,6 @@ export default function SkillsAndLinks({ theme }) {
             LinkedIn
           </a>
         </p>
-        <Button inverted color="red">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/t%C3%BA-%C4%91o%C3%A0n-vi%E1%BB%87t-92070120b/"
-            className={
-              theme === "light" ? "download-button" : "download-button-dark"
-            }
-          >
-            Download Resume
-          </a>
-        </Button>
       </div>
 
       <div className="links-section">
