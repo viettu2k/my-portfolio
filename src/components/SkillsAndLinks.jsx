@@ -83,8 +83,8 @@ export default function SkillsAndLinks({ theme }) {
         >
           I studied{" "}
           <b>
-            data structures and algorithms, software development
-            process,software testing,
+            data structures and algorithms, software development process,
+            software testing,
           </b>{" "}
           and some basic programming languages in my university program like{" "}
           <b>c++, c#, java</b>. In addition, I also learned more and felt very
