@@ -64,7 +64,7 @@ export default function SkillsAndLinks({ theme }) {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/%C4%91o%C3%A0n-vi%E1%BB%87t-t%C3%BA-92070120b/"
+            href="https://www.linkedin.com/in/doan-viet-tu-92070120b/"
           >
             LinkedIn
           </a>
