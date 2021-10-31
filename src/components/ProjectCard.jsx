@@ -541,7 +541,7 @@ export default function ProjectCard({ theme }) {
                       style={{ fontWeight: "bold" }}
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://social-network-one-mu.vercel.app/"
+                      href="https://social-network-viettu2k.vercel.app/"
                     >
                       <Icon name="window maximize outline" /> Demo
                     </a>
