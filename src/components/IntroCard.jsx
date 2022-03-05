@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "./../assets/avatar.jpg";
+import avatar from "./../assets/avatar.png";
 
 export default function IntroCard({ changeTheme, theme }) {
   return (
